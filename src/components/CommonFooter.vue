@@ -18,3 +18,32 @@
     <small>Copyright 2019 estra inc. All Rights Reserved.</small>
   </footer>
 </template>
+<style scoped>
+*{color: white;}
+.footer-bar {
+  height: 70px;
+  line-height: 70px;
+}
+.flex{margin: 0 40px;}
+.top-footer {
+  background: #000;
+  text-align: center;
+}
+.header-nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+.header-nav li{margin: 0 10px;}
+.top-footer small {
+  text-align: center;
+  color: #fff;
+}
+@media screen and (max-width : 768px){
+  .top-footer .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
+</style>

@@ -1,7 +1,7 @@
 <template> 
   <div id="app">
-    <CommonHeader></CommonHeader>
     <div id="firstview">
+      <CommonHeader></CommonHeader>
       <p class="catchcopy">機械ではできない仕事を</p>
       <div class="news flex">
         <div class="news-content">
@@ -12,11 +12,6 @@
         </div>
         <div class="news-icon">news</div>
       </div>
-    </div>
-    <div id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
     </div>
     <main>
       <div class="mission">
@@ -330,40 +325,12 @@ body {
   font-size: 20px;
 }
 
-/*------------------------*/
-/*         header         */
-/*------------------------*/
-#hamburger {
-  display: none;
-}
 
-#top-header {
-  height: 70px;
-  line-height: 70px;
-  background: rgba(0, 0, 0, 1);
-}
-
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #fff;
-  line-height: 70px;
-}
-
-.header-nav li {
-  display: inline-block;
-  margin-right: 35px;
-  font-size: 16px;
-}
-
-.header-nav a {
-  color: #fff;
-}
+#app{height: 100%;}
 
 #firstview {
   height: 100%;
-  background: url(./assets/eyecatch.jpg) no-repeat;
+  background: url("./assets/eyecatch.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -554,7 +521,7 @@ body {
 /*        contact         */
 /*------------------------*/
 .contact {
-  background: url(/assets/contact.jpg) center/cover no-repeat;
+  background: url(./assets/contact-bg.jpg) center/cover no-repeat;
   padding: 10%;
   height: 100%;
 }
